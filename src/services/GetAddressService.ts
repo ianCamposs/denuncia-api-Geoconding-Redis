@@ -13,7 +13,12 @@ class GetAddressService {
     })
     
     const resultApi = await geocoder.reverse({lat: latitude ,lon: longitude})
+    .catch(err => {
+      throw new Error(err)
+    })
     
+   
+
     return resultApi
   }
 }

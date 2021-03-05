@@ -29,6 +29,9 @@ class RelatorioController {
     //Realizando busca a API do Geocoding e salvando em cache
     const getAddressService = new GetAddressService()
     const endereco = await getAddressService.execute(latitude, longitude)
+    .catch(err => {
+      return response.status(400).json({message: 'Endereço não encontrado para essa localidade.',})
+    })
     cacheService.save(coordenadas, endereco)  
     }
     
