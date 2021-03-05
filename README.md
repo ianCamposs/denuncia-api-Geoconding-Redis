@@ -68,14 +68,15 @@ o projeto utiliza Redis para a criação de uma cache para retornar as consultas
 }
 
 - Verifique o tempo de execução da primeira requisição
+![alt text](https://github.com/ianCamposs/denuncia-api-Geoconding-Redis/blob/main/img/Capturar.PNG)
 
 - Execute a requisição novamente e veja o impacto do uso da cache no tempo final.
+![alt text](https://github.com/ianCamposs/denuncia-api-Geoconding-Redis/blob/main/img/Capturar1.PNG)
 
 - Acesse o seu beekeeper, conecte ao sqlite server e visualize a requisição salva na tabela Relatórios.
 
 
 
-##
 
 ## 📄 License
 
