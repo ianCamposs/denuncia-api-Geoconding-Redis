@@ -44,7 +44,7 @@ Esse projeto utiliza as seguintes tecnologias:
 
 - Crie um arquivo .env e insira a sua Api-Key dentro do arquivo no padrão chave valor, dessa forma: APIKEY = suaApi-key
 
-<h1>Inicializando tecnologias auxliares</h1>
+<h1>Inicializando tecnologias auxiliares</h1>
 
 - Use o script "knex:migrate" para rodar as migrations do projeto, assim, criando o banco de dados Sqlite de acordo com as configurações do projeto, use `npm run knex:migrate`
 
